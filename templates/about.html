@@ -2,16 +2,20 @@
 <html lang="en">
 <head>
  <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>My Website - About</title>
+ <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head>
 <body>
  <h1><marquee>Reynaldo Allison: 620146955 </marquee> </h1> 
+ <img src="{{ url_for('static', filename='static.gif') }}" alt="About Image">
  <p>I am a computer science student I love coding and creating, i procrastinated this assignment for way too long
     and I should probably not do this again. 
-    I like cooking, gaming and anime and I don't know how well i'll do on this assignment.</p>
+    I like cooking, gaming, cartoons and anime and I don't know how well i'll do on this assignment.</p>
     <marquee direction="right" behavior="alternate" 
         style="border:black 2px solid">
         This me being random 
     </marquee>
+
 </body>
 </html>
